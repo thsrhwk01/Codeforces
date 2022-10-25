@@ -1,0 +1,821 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: codeforce
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target SpellCheck
+
+
+#############################################
+# Order-only phony target for SpellCheck
+
+build cmake_object_order_depends_target_SpellCheck: phony || CMakeFiles/SpellCheck.dir
+
+build CMakeFiles/SpellCheck.dir/#817_div4/SpellCheck.cpp.o: CXX_COMPILER__SpellCheck_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#817_div4/SpellCheck.cpp || cmake_object_order_depends_target_SpellCheck
+  DEP_FILE = "CMakeFiles/SpellCheck.dir/#817_div4/SpellCheck.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/SpellCheck.dir
+  OBJECT_FILE_DIR = "CMakeFiles/SpellCheck.dir/#817_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SpellCheck
+
+
+#############################################
+# Link the executable SpellCheck
+
+build SpellCheck: CXX_EXECUTABLE_LINKER__SpellCheck_Debug CMakeFiles/SpellCheck.dir/#817_div4/SpellCheck.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/SpellCheck.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SpellCheck
+  TARGET_PDB = SpellCheck.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Colourblindness
+
+
+#############################################
+# Order-only phony target for Colourblindness
+
+build cmake_object_order_depends_target_Colourblindness: phony || CMakeFiles/Colourblindness.dir
+
+build CMakeFiles/Colourblindness.dir/#817_div4/Colourblindness.cpp.o: CXX_COMPILER__Colourblindness_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#817_div4/Colourblindness.cpp || cmake_object_order_depends_target_Colourblindness
+  DEP_FILE = "CMakeFiles/Colourblindness.dir/#817_div4/Colourblindness.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Colourblindness.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Colourblindness.dir/#817_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Colourblindness
+
+
+#############################################
+# Link the executable Colourblindness
+
+build Colourblindness: CXX_EXECUTABLE_LINKER__Colourblindness_Debug CMakeFiles/Colourblindness.dir/#817_div4/Colourblindness.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Colourblindness.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Colourblindness
+  TARGET_PDB = Colourblindness.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target WordGame
+
+
+#############################################
+# Order-only phony target for WordGame
+
+build cmake_object_order_depends_target_WordGame: phony || CMakeFiles/WordGame.dir
+
+build CMakeFiles/WordGame.dir/#817_div4/WordGame.cpp.o: CXX_COMPILER__WordGame_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#817_div4/WordGame.cpp || cmake_object_order_depends_target_WordGame
+  DEP_FILE = "CMakeFiles/WordGame.dir/#817_div4/WordGame.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/WordGame.dir
+  OBJECT_FILE_DIR = "CMakeFiles/WordGame.dir/#817_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target WordGame
+
+
+#############################################
+# Link the executable WordGame
+
+build WordGame: CXX_EXECUTABLE_LINKER__WordGame_Debug CMakeFiles/WordGame.dir/#817_div4/WordGame.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/WordGame.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = WordGame
+  TARGET_PDB = WordGame.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Line
+
+
+#############################################
+# Order-only phony target for Line
+
+build cmake_object_order_depends_target_Line: phony || CMakeFiles/Line.dir
+
+build CMakeFiles/Line.dir/#817_div4/Line.cpp.o: CXX_COMPILER__Line_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#817_div4/Line.cpp || cmake_object_order_depends_target_Line
+  DEP_FILE = "CMakeFiles/Line.dir/#817_div4/Line.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Line.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Line.dir/#817_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Line
+
+
+#############################################
+# Link the executable Line
+
+build Line: CXX_EXECUTABLE_LINKER__Line_Debug CMakeFiles/Line.dir/#817_div4/Line.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Line.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Line
+  TARGET_PDB = Line.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Counting_Rectangles
+
+
+#############################################
+# Order-only phony target for Counting_Rectangles
+
+build cmake_object_order_depends_target_Counting_Rectangles: phony || CMakeFiles/Counting_Rectangles.dir
+
+build CMakeFiles/Counting_Rectangles.dir/#817_div4/Counting_Rectangles.cpp.o: CXX_COMPILER__Counting_Rectangles_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#817_div4/Counting_Rectangles.cpp || cmake_object_order_depends_target_Counting_Rectangles
+  DEP_FILE = "CMakeFiles/Counting_Rectangles.dir/#817_div4/Counting_Rectangles.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Counting_Rectangles.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Counting_Rectangles.dir/#817_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Counting_Rectangles
+
+
+#############################################
+# Link the executable Counting_Rectangles
+
+build Counting_Rectangles: CXX_EXECUTABLE_LINKER__Counting_Rectangles_Debug CMakeFiles/Counting_Rectangles.dir/#817_div4/Counting_Rectangles.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Counting_Rectangles.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Counting_Rectangles
+  TARGET_PDB = Counting_Rectangles.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TwoElevators
+
+
+#############################################
+# Order-only phony target for TwoElevators
+
+build cmake_object_order_depends_target_TwoElevators: phony || CMakeFiles/TwoElevators.dir
+
+build CMakeFiles/TwoElevators.dir/#820_div3/TwoElevators.cpp.o: CXX_COMPILER__TwoElevators_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#820_div3/TwoElevators.cpp || cmake_object_order_depends_target_TwoElevators
+  DEP_FILE = "CMakeFiles/TwoElevators.dir/#820_div3/TwoElevators.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/TwoElevators.dir
+  OBJECT_FILE_DIR = "CMakeFiles/TwoElevators.dir/#820_div3"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TwoElevators
+
+
+#############################################
+# Link the executable TwoElevators
+
+build TwoElevators: CXX_EXECUTABLE_LINKER__TwoElevators_Debug CMakeFiles/TwoElevators.dir/#820_div3/TwoElevators.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/TwoElevators.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = TwoElevators
+  TARGET_PDB = TwoElevators.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DecodeString
+
+
+#############################################
+# Order-only phony target for DecodeString
+
+build cmake_object_order_depends_target_DecodeString: phony || CMakeFiles/DecodeString.dir
+
+build CMakeFiles/DecodeString.dir/#820_div3/DecodeString.cpp.o: CXX_COMPILER__DecodeString_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#820_div3/DecodeString.cpp || cmake_object_order_depends_target_DecodeString
+  DEP_FILE = "CMakeFiles/DecodeString.dir/#820_div3/DecodeString.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/DecodeString.dir
+  OBJECT_FILE_DIR = "CMakeFiles/DecodeString.dir/#820_div3"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DecodeString
+
+
+#############################################
+# Link the executable DecodeString
+
+build DecodeString: CXX_EXECUTABLE_LINKER__DecodeString_Debug CMakeFiles/DecodeString.dir/#820_div3/DecodeString.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/DecodeString.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = DecodeString
+  TARGET_PDB = DecodeString.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+
+build CMakeFiles/test.dir/test.cpp.o: CXX_COMPILER__test_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/test.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles/test.dir/test.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test
+
+build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test
+  TARGET_PDB = test.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Jumping_on_Tiles
+
+
+#############################################
+# Order-only phony target for Jumping_on_Tiles
+
+build cmake_object_order_depends_target_Jumping_on_Tiles: phony || CMakeFiles/Jumping_on_Tiles.dir
+
+build CMakeFiles/Jumping_on_Tiles.dir/#820_div3/Jumping_on_Tiles.cpp.o: CXX_COMPILER__Jumping_on_Tiles_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#820_div3/Jumping_on_Tiles.cpp || cmake_object_order_depends_target_Jumping_on_Tiles
+  DEP_FILE = "CMakeFiles/Jumping_on_Tiles.dir/#820_div3/Jumping_on_Tiles.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Jumping_on_Tiles.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Jumping_on_Tiles.dir/#820_div3"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Jumping_on_Tiles
+
+
+#############################################
+# Link the executable Jumping_on_Tiles
+
+build Jumping_on_Tiles: CXX_EXECUTABLE_LINKER__Jumping_on_Tiles_Debug CMakeFiles/Jumping_on_Tiles.dir/#820_div3/Jumping_on_Tiles.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Jumping_on_Tiles.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Jumping_on_Tiles
+  TARGET_PDB = Jumping_on_Tiles.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Friends_and_the_Restaurant
+
+
+#############################################
+# Order-only phony target for Friends_and_the_Restaurant
+
+build cmake_object_order_depends_target_Friends_and_the_Restaurant: phony || CMakeFiles/Friends_and_the_Restaurant.dir
+
+build CMakeFiles/Friends_and_the_Restaurant.dir/#820_div3/Friends_and_the_Restaurant.cpp.o: CXX_COMPILER__Friends_and_the_Restaurant_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#820_div3/Friends_and_the_Restaurant.cpp || cmake_object_order_depends_target_Friends_and_the_Restaurant
+  DEP_FILE = "CMakeFiles/Friends_and_the_Restaurant.dir/#820_div3/Friends_and_the_Restaurant.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Friends_and_the_Restaurant.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Friends_and_the_Restaurant.dir/#820_div3"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Friends_and_the_Restaurant
+
+
+#############################################
+# Link the executable Friends_and_the_Restaurant
+
+build Friends_and_the_Restaurant: CXX_EXECUTABLE_LINKER__Friends_and_the_Restaurant_Debug CMakeFiles/Friends_and_the_Restaurant.dir/#820_div3/Friends_and_the_Restaurant.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Friends_and_the_Restaurant.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Friends_and_the_Restaurant
+  TARGET_PDB = Friends_and_the_Restaurant.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Guess_the_Cycle_Size
+
+
+#############################################
+# Order-only phony target for Guess_the_Cycle_Size
+
+build cmake_object_order_depends_target_Guess_the_Cycle_Size: phony || CMakeFiles/Guess_the_Cycle_Size.dir
+
+build CMakeFiles/Guess_the_Cycle_Size.dir/#820_div3/Guess_the_Cycle_Size.cpp.o: CXX_COMPILER__Guess_the_Cycle_Size_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#820_div3/Guess_the_Cycle_Size.cpp || cmake_object_order_depends_target_Guess_the_Cycle_Size
+  DEP_FILE = "CMakeFiles/Guess_the_Cycle_Size.dir/#820_div3/Guess_the_Cycle_Size.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Guess_the_Cycle_Size.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Guess_the_Cycle_Size.dir/#820_div3"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Guess_the_Cycle_Size
+
+
+#############################################
+# Link the executable Guess_the_Cycle_Size
+
+build Guess_the_Cycle_Size: CXX_EXECUTABLE_LINKER__Guess_the_Cycle_Size_Debug CMakeFiles/Guess_the_Cycle_Size.dir/#820_div3/Guess_the_Cycle_Size.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Guess_the_Cycle_Size.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Guess_the_Cycle_Size
+  TARGET_PDB = Guess_the_Cycle_Size.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target YES_or_YES
+
+
+#############################################
+# Order-only phony target for YES_or_YES
+
+build cmake_object_order_depends_target_YES_or_YES: phony || CMakeFiles/YES_or_YES.dir
+
+build CMakeFiles/YES_or_YES.dir/#806_div4/YES_or_YES.cpp.o: CXX_COMPILER__YES_or_YES_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#806_div4/YES_or_YES.cpp || cmake_object_order_depends_target_YES_or_YES
+  DEP_FILE = "CMakeFiles/YES_or_YES.dir/#806_div4/YES_or_YES.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/YES_or_YES.dir
+  OBJECT_FILE_DIR = "CMakeFiles/YES_or_YES.dir/#806_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target YES_or_YES
+
+
+#############################################
+# Link the executable YES_or_YES
+
+build YES_or_YES: CXX_EXECUTABLE_LINKER__YES_or_YES_Debug CMakeFiles/YES_or_YES.dir/#806_div4/YES_or_YES.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/YES_or_YES.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = YES_or_YES
+  TARGET_PDB = YES_or_YES.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ICPC_Balloons
+
+
+#############################################
+# Order-only phony target for ICPC_Balloons
+
+build cmake_object_order_depends_target_ICPC_Balloons: phony || CMakeFiles/ICPC_Balloons.dir
+
+build CMakeFiles/ICPC_Balloons.dir/#806_div4/ICPC_Balloons.cpp.o: CXX_COMPILER__ICPC_Balloons_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#806_div4/ICPC_Balloons.cpp || cmake_object_order_depends_target_ICPC_Balloons
+  DEP_FILE = "CMakeFiles/ICPC_Balloons.dir/#806_div4/ICPC_Balloons.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ICPC_Balloons.dir
+  OBJECT_FILE_DIR = "CMakeFiles/ICPC_Balloons.dir/#806_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ICPC_Balloons
+
+
+#############################################
+# Link the executable ICPC_Balloons
+
+build ICPC_Balloons: CXX_EXECUTABLE_LINKER__ICPC_Balloons_Debug CMakeFiles/ICPC_Balloons.dir/#806_div4/ICPC_Balloons.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/ICPC_Balloons.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ICPC_Balloons
+  TARGET_PDB = ICPC_Balloons.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Cypher
+
+
+#############################################
+# Order-only phony target for Cypher
+
+build cmake_object_order_depends_target_Cypher: phony || CMakeFiles/Cypher.dir
+
+build CMakeFiles/Cypher.dir/#806_div4/Cypher.cpp.o: CXX_COMPILER__Cypher_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#806_div4/Cypher.cpp || cmake_object_order_depends_target_Cypher
+  DEP_FILE = "CMakeFiles/Cypher.dir/#806_div4/Cypher.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Cypher.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Cypher.dir/#806_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Cypher
+
+
+#############################################
+# Link the executable Cypher
+
+build Cypher: CXX_EXECUTABLE_LINKER__Cypher_Debug CMakeFiles/Cypher.dir/#806_div4/Cypher.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Cypher.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Cypher
+  TARGET_PDB = Cypher.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Double_Strings
+
+
+#############################################
+# Order-only phony target for Double_Strings
+
+build cmake_object_order_depends_target_Double_Strings: phony || CMakeFiles/Double_Strings.dir
+
+build CMakeFiles/Double_Strings.dir/#806_div4/Double_Strings.cpp.o: CXX_COMPILER__Double_Strings_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#806_div4/Double_Strings.cpp || cmake_object_order_depends_target_Double_Strings
+  DEP_FILE = "CMakeFiles/Double_Strings.dir/#806_div4/Double_Strings.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Double_Strings.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Double_Strings.dir/#806_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Double_Strings
+
+
+#############################################
+# Link the executable Double_Strings
+
+build Double_Strings: CXX_EXECUTABLE_LINKER__Double_Strings_Debug CMakeFiles/Double_Strings.dir/#806_div4/Double_Strings.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Double_Strings.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Double_Strings
+  TARGET_PDB = Double_Strings.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Mirror_Grid
+
+
+#############################################
+# Order-only phony target for Mirror_Grid
+
+build cmake_object_order_depends_target_Mirror_Grid: phony || CMakeFiles/Mirror_Grid.dir
+
+build CMakeFiles/Mirror_Grid.dir/#806_div4/Mirror_Grid.cpp.o: CXX_COMPILER__Mirror_Grid_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#806_div4/Mirror_Grid.cpp || cmake_object_order_depends_target_Mirror_Grid
+  DEP_FILE = "CMakeFiles/Mirror_Grid.dir/#806_div4/Mirror_Grid.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Mirror_Grid.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Mirror_Grid.dir/#806_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Mirror_Grid
+
+
+#############################################
+# Link the executable Mirror_Grid
+
+build Mirror_Grid: CXX_EXECUTABLE_LINKER__Mirror_Grid_Debug CMakeFiles/Mirror_Grid.dir/#806_div4/Mirror_Grid.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Mirror_Grid.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Mirror_Grid
+  TARGET_PDB = Mirror_Grid.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Yet_Another_Problem
+
+
+#############################################
+# Order-only phony target for Yet_Another_Problem
+
+build cmake_object_order_depends_target_Yet_Another_Problem: phony || CMakeFiles/Yet_Another_Problem.dir
+
+build CMakeFiles/Yet_Another_Problem.dir/#806_div4/Yet_Another_Problem.cpp.o: CXX_COMPILER__Yet_Another_Problem_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#806_div4/Yet_Another_Problem.cpp || cmake_object_order_depends_target_Yet_Another_Problem
+  DEP_FILE = "CMakeFiles/Yet_Another_Problem.dir/#806_div4/Yet_Another_Problem.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Yet_Another_Problem.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Yet_Another_Problem.dir/#806_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Yet_Another_Problem
+
+
+#############################################
+# Link the executable Yet_Another_Problem
+
+build Yet_Another_Problem: CXX_EXECUTABLE_LINKER__Yet_Another_Problem_Debug CMakeFiles/Yet_Another_Problem.dir/#806_div4/Yet_Another_Problem.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Yet_Another_Problem.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Yet_Another_Problem
+  TARGET_PDB = Yet_Another_Problem.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Sum
+
+
+#############################################
+# Order-only phony target for Sum
+
+build cmake_object_order_depends_target_Sum: phony || CMakeFiles/Sum.dir
+
+build CMakeFiles/Sum.dir/#827_div4/Sum.cpp.o: CXX_COMPILER__Sum_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#827_div4/Sum.cpp || cmake_object_order_depends_target_Sum
+  DEP_FILE = "CMakeFiles/Sum.dir/#827_div4/Sum.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Sum.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Sum.dir/#827_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Sum
+
+
+#############################################
+# Link the executable Sum
+
+build Sum: CXX_EXECUTABLE_LINKER__Sum_Debug CMakeFiles/Sum.dir/#827_div4/Sum.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Sum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Sum
+  TARGET_PDB = Sum.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Increasing
+
+
+#############################################
+# Order-only phony target for Increasing
+
+build cmake_object_order_depends_target_Increasing: phony || CMakeFiles/Increasing.dir
+
+build CMakeFiles/Increasing.dir/#827_div4/Increasing.cpp.o: CXX_COMPILER__Increasing_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#827_div4/Increasing.cpp || cmake_object_order_depends_target_Increasing
+  DEP_FILE = "CMakeFiles/Increasing.dir/#827_div4/Increasing.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Increasing.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Increasing.dir/#827_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Increasing
+
+
+#############################################
+# Link the executable Increasing
+
+build Increasing: CXX_EXECUTABLE_LINKER__Increasing_Debug CMakeFiles/Increasing.dir/#827_div4/Increasing.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Increasing.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Increasing
+  TARGET_PDB = Increasing.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Stripes
+
+
+#############################################
+# Order-only phony target for Stripes
+
+build cmake_object_order_depends_target_Stripes: phony || CMakeFiles/Stripes.dir
+
+build CMakeFiles/Stripes.dir/#827_div4/Stripes.cpp.o: CXX_COMPILER__Stripes_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#827_div4/Stripes.cpp || cmake_object_order_depends_target_Stripes
+  DEP_FILE = "CMakeFiles/Stripes.dir/#827_div4/Stripes.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Stripes.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Stripes.dir/#827_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Stripes
+
+
+#############################################
+# Link the executable Stripes
+
+build Stripes: CXX_EXECUTABLE_LINKER__Stripes_Debug CMakeFiles/Stripes.dir/#827_div4/Stripes.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Stripes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Stripes
+  TARGET_PDB = Stripes.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Scuza
+
+
+#############################################
+# Order-only phony target for Scuza
+
+build cmake_object_order_depends_target_Scuza: phony || CMakeFiles/Scuza.dir
+
+build CMakeFiles/Scuza.dir/#827_div4/Scuza.cpp.o: CXX_COMPILER__Scuza_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#827_div4/Scuza.cpp || cmake_object_order_depends_target_Scuza
+  DEP_FILE = "CMakeFiles/Scuza.dir/#827_div4/Scuza.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Scuza.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Scuza.dir/#827_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Scuza
+
+
+#############################################
+# Link the executable Scuza
+
+build Scuza: CXX_EXECUTABLE_LINKER__Scuza_Debug CMakeFiles/Scuza.dir/#827_div4/Scuza.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Scuza.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Scuza
+  TARGET_PDB = Scuza.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Smaller
+
+
+#############################################
+# Order-only phony target for Smaller
+
+build cmake_object_order_depends_target_Smaller: phony || CMakeFiles/Smaller.dir
+
+build CMakeFiles/Smaller.dir/#827_div4/Smaller.cpp.o: CXX_COMPILER__Smaller_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#827_div4/Smaller.cpp || cmake_object_order_depends_target_Smaller
+  DEP_FILE = "CMakeFiles/Smaller.dir/#827_div4/Smaller.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Smaller.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Smaller.dir/#827_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Smaller
+
+
+#############################################
+# Link the executable Smaller
+
+build Smaller: CXX_EXECUTABLE_LINKER__Smaller_Debug CMakeFiles/Smaller.dir/#827_div4/Smaller.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Smaller.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Smaller
+  TARGET_PDB = Smaller.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Coprime
+
+
+#############################################
+# Order-only phony target for Coprime
+
+build cmake_object_order_depends_target_Coprime: phony || CMakeFiles/Coprime.dir
+
+build CMakeFiles/Coprime.dir/#827_div4/Coprime.cpp.o: CXX_COMPILER__Coprime_Debug /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/#827_div4/Coprime.cpp || cmake_object_order_depends_target_Coprime
+  DEP_FILE = "CMakeFiles/Coprime.dir/#827_div4/Coprime.cpp.o.d"
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Coprime.dir
+  OBJECT_FILE_DIR = "CMakeFiles/Coprime.dir/#827_div4"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Coprime
+
+
+#############################################
+# Link the executable Coprime
+
+build Coprime: CXX_EXECUTABLE_LINKER__Coprime_Debug CMakeFiles/Coprime.dir/#827_div4/Coprime.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Coprime.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Coprime
+  TARGET_PDB = Coprime.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces -B/Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/99woo/Library/CloudStorage/OneDrive-개인/Documents/Coding/Codeforces/cmake-build-debug
+
+build all: phony SpellCheck Colourblindness WordGame Line Counting_Rectangles TwoElevators DecodeString test Jumping_on_Tiles Friends_and_the_Restaurant Guess_the_Cycle_Size YES_or_YES ICPC_Balloons Cypher Double_Strings Mirror_Grid Yet_Another_Problem Sum Increasing Stripes Scuza Smaller Coprime
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
